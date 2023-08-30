@@ -1,11 +1,7 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 function listTopics() {
-<<<<<<< HEAD
   
-=======
-
->>>>>>> 92f743627a7e908849486160bbdb338ef950eabd
 for (var x = 0; x < topics.length; x++) {
  console.log(topics[x]);
     }
@@ -24,11 +20,7 @@ if (randomTopic === 'HTML') {
   console.log('Please try again!');
 }
 }
-<<<<<<< HEAD
 console.log('Here are the topics we learned through Prework:');
-=======
-console.log( 'Here are the topics we learned through Prework:');
->>>>>>> 92f743627a7e908849486160bbdb338ef950eabd
 listTopics();
 console.log('Which topic should we study first?');
 selectTopic();
